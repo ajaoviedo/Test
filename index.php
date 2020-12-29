@@ -1,1 +1,0 @@
-<?php header( 'Location: /react_client/src/index.js' ) ;  ?>
