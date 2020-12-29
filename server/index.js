@@ -53,7 +53,7 @@ const app = (() => {
 // Init our routes with express
 initRoutes(app);
 
-app.listen(config.server.port, () => console.log(`App now listening on port ${config.server.port}`));
+app.listen(process.env.PORT || 80, () => console.log(`App now listening on port ${process.env.port}`));
 
 
 
