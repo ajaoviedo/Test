@@ -1,1 +1,1 @@
-web: node /react_client/src/index.js
+web: node react_client/src/index.js
